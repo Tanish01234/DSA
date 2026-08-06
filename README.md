@@ -7,7 +7,7 @@
 <h1 align="center">Data Structures & Algorithms</h1>
 
 <p align="center">
-<i>A well-organized collection of Data Structures & Algorithms practicals implemented in modern C++.</i>
+<i>A well-organized collection of Data Structures & Algorithms laboratory practicals implemented in C++.</i>
 </p>
 <br>
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
