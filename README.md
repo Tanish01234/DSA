@@ -78,9 +78,22 @@ This repository contains the practical implementations completed during the **Fu
 
 ```text
 DSA/
+│
 ├── README.md
-├── Prac.1/          # Introduction & Complexity Analysis
-├── Prac.2/          # Arrays & Array Operations
+│
+├── Prac.1/
+│   ├── README.md
+│   ├── prac1.1.cpp
+│   ├── prac1.2.cpp
+│   └── prac1.3.cpp
+│
+├── Prac.2/
+│   ├── README.md
+│   ├── prac2.1.cpp
+│   ├── prac2.2.cpp
+│   ├── prac2_1.cpp
+│   ├── prac2_2.cpp
+│   
 ├── ...
 ```
 
