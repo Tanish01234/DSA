@@ -53,7 +53,7 @@ This repository contains the practical implementations completed during the **Fu
 | :---: | :--- | :---: | :---: |
 | **01** | Introduction & Complexity Analysis | ✅ Completed | 3 |
 | **02** | Arrays & Array Operations | ✅ Completed | 4 |
-| **03** | Searching Algorithms | 🔜 Upcoming | — |
+| **03** | Searching Algorithms | ✅ Completed | 2 |
 | **04** | Sorting Algorithms | 🔜 Upcoming | — |
 | **05** | Singly Linked List | 🔜 Upcoming | — |
 | **06** | Doubly & Circular Linked List | 🔜 Upcoming | — |
@@ -82,19 +82,22 @@ DSA/
 ├── README.md
 │
 ├── Prac.1/
-│   ├── README.md
 │   ├── prac1.1.cpp
 │   ├── prac1.2.cpp
 │   └── prac1.3.cpp
 │
 ├── Prac.2/
-│   ├── README.md
 │   ├── prac2.1.cpp
 │   ├── prac2.2.cpp
 │   ├── prac2_1.cpp
 │   ├── prac2_2.cpp
 │   
-├── ...
+├── Prac.3/
+│   ├── prac3.1.cpp
+│   ├── prac3.2.cpp
+│   
+│── ...
+
 ```
 
 
