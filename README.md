@@ -54,9 +54,9 @@ This repository contains the practical implementations completed during the **Fu
 | **01** | Introduction & Complexity Analysis | ✅ Completed | 3 |
 | **02** | Arrays & Array Operations | ✅ Completed | 4 |
 | **03** | Searching Algorithms | ✅ Completed | 2 |
-| **04** | Sorting Algorithms | 🔜 Upcoming | — |
-| **05** | Singly Linked List | 🔜 Upcoming | — |
-| **06** | Doubly & Circular Linked List | 🔜 Upcoming | — |
+| **04** | Sorting Algorithms | ✅ Completed | 2 |
+| **05** | Singly Linked List | ✅ Completed | 3 |
+| **06** | Doubly & Circular Linked List | ✅ Completed | 3 |
 | **07** | Stack (Array & Linked List) | 🔜 Upcoming | — |
 | **08** | Queue & Circular Queue | 🔜 Upcoming | — |
 | **09** | Recursion & Backtracking | 🔜 Upcoming | — |
