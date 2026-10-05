@@ -98,7 +98,22 @@ DSA/
 │
 ├── Prac.4/
 │   ├── prac4.1.cpp
+│   ├── prac4.2.cpp
 │
+├── Prac.5/
+│   ├── prac5.1.cpp
+│   ├── prac5.2.cpp
+│   └── prac5.3.cpp
+│
+├── Prac.6/
+│   ├── prac6.1.cpp
+│   ├── prac6.2.cpp
+│   └── prac6.3.cpp
+│ 
+├── Prac.7/
+│   ├── prac7.1.cpp
+│   ├── prac7.2.cpp
+│ 
 │── ...
 
 ```
