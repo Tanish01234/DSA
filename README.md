@@ -57,7 +57,7 @@ This repository contains the practical implementations completed during the **Fu
 | **04** | Sorting Algorithms | ✅ Completed | 2 |
 | **05** | Singly Linked List | ✅ Completed | 3 |
 | **06** | Doubly & Circular Linked List | ✅ Completed | 3 |
-| **07** | Stack (Array & Linked List) | 🔜 Upcoming | — |
+| **07** | Stack (Array & Linked List) | ✅ Completed | 2 |
 | **08** | Queue & Circular Queue | 🔜 Upcoming | — |
 | **09** | Recursion & Backtracking | 🔜 Upcoming | — |
 | **10** | Trees & Binary Search Trees | 🔜 Upcoming | — |
