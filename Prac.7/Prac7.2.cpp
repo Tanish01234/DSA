@@ -1,72 +1,98 @@
 #include <iostream>
 using namespace std;
 
-class Queue {
-  int arr[1000];
-  int front;
-  int rear;
-
-public:
-  Queue() {
-    front = -1;
-    rear = -1;
-  }
-
-  void arrive(int patient) {
-    if (front == -1) {
-      front = 0;
-      rear = 0;
-    } else {
-      rear++;
-    }
-
-    arr[rear] = patient;
-
-    cout << "Front: " << arr[front] << endl;
-  }
-
-  void attend() {
-    if (front == -1) {
-      cout << "Underflow" << endl;
-      return;
-    }
-
-    cout << "Attended: " << arr[front] << endl;
-
-    if (front == rear) {
-      front = -1;
-      rear = -1;
-    } else {
-      front++;
-    }
-
-    if (front != -1) {
-      cout << "Front: " << arr[front] << endl;
-    } else {
-      cout << "Queue is empty" << endl;
-    }
-  }
+struct Node {
+  int patientID;
+  Node *next;
 };
 
-int main() {
-  Queue q;
+Node *frontNode = NULL;
+Node *rearNode = NULL;
 
-  int n;
-  cin >> n;
+void addPatient(int id) {
+  Node *newNode = new Node;
+  newNode->patientID = id;
+  newNode->next = NULL;
 
-  for (int i = 0; i < n; i++) {
-    string operation;
-    cin >> operation;
+  if (frontNode == NULL) {
+    frontNode = newNode;
+    rearNode = newNode;
+  } else {
+    rearNode->next = newNode;
+    rearNode = newNode;
+  }
+}
 
-    if (operation == "arrive") {
-      int patient;
-      cin >> patient;
+int attendPatient() {
+  Node *temp = frontNode;
+  int id = temp->patientID;
+  frontNode = frontNode->next;
 
-      q.arrive(patient);
-    } else if (operation == "attend") {
-      q.attend();
+  if (frontNode == NULL)
+    rearNode = NULL;
+
+  delete temp;
+  return id;
+}
+
+void displayQueue() {
+  cout << "Waiting patients: ";
+
+  if (frontNode == NULL) {
+    cout << "empty";
+  } else {
+    Node *temp = frontNode;
+    while (temp != NULL) {
+      cout << temp->patientID;
+
+      if (temp->next != NULL)
+        cout << " -> ";
+
+      temp = temp->next;
     }
   }
+
+  cout << "\n";
+}
+
+int main() {
+  int operationCount;
+
+  cout << "Enter number of operations: ";
+  cin >> operationCount;
+
+  cout << "Enter operations as J patientID (join) or S (attend).\n";
+
+  for (int i = 0; i < operationCount; i++) {
+    char operation;
+    cout << "Operation " << i + 1 << ": ";
+    cin >> operation;
+
+    if (operation == 'J' || operation == 'j') {
+      int id;
+      cin >> id;
+      addPatient(id);
+    } else if (operation == 'S' || operation == 's') {
+      if (frontNode == NULL) {
+        cout << "Error: no patients are waiting.\n";
+      } else {
+        int id = attendPatient();
+        cout << "Attended patient: " << id << "\n";
+      }
+    } else {
+      cout << "Invalid operation. Use J or S.\n";
+    }
+
+    if (frontNode == NULL)
+      cout << "Current front patient: none\n";
+    else
+      cout << "Current front patient: " << frontNode->patientID << "\n";
+
+    displayQueue();
+  }
+
+  while (frontNode != NULL)
+    attendPatient();
 
   return 0;
 }
