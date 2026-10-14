@@ -90,15 +90,15 @@ DSA/
 │   ├── prac2.1.cpp
 │   ├── prac2.2.cpp
 │   ├── prac2_1.cpp
-│   ├── prac2_2.cpp
-│   
+│   └── prac2_2.cpp
+│
 ├── Prac.3/
 │   ├── prac3.1.cpp
-│   ├── prac3.2.cpp
+│   └── prac3.2.cpp
 │
 ├── Prac.4/
 │   ├── prac4.1.cpp
-│   ├── prac4.2.cpp
+│   └── prac4.2.cpp
 │
 ├── Prac.5/
 │   ├── prac5.1.cpp
@@ -109,13 +109,24 @@ DSA/
 │   ├── prac6.1.cpp
 │   ├── prac6.2.cpp
 │   └── prac6.3.cpp
-│ 
+│
 ├── Prac.7/
 │   ├── prac7.1.cpp
-│   ├── prac7.2.cpp
-│ 
-│── ...
-
+│   └── prac7.2.cpp
+│
+├── Prac.8/
+│   ├── prac8.1.cpp
+│   └── prac8.2.cpp
+│
+├── Prac.9/
+│   └── prac9.1.cpp
+│
+├── Prac.10/
+│   ├── prac10.1.cpp
+│   ├── prac10.2.cpp
+│   └── prac10.3.cpp
+│
+├── ....
 ```
 
 
