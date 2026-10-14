@@ -58,9 +58,9 @@ This repository contains the practical implementations completed during the **Fu
 | **05** | Singly Linked List | ✅ Completed | 3 |
 | **06** | Doubly & Circular Linked List | ✅ Completed | 3 |
 | **07** | Stack (Array & Linked List) | ✅ Completed | 2 |
-| **08** | Queue & Circular Queue | 🔜 Upcoming | — |
-| **09** | Recursion & Backtracking | 🔜 Upcoming | — |
-| **10** | Trees & Binary Search Trees | 🔜 Upcoming | — |
+| **08** | Queue & Circular Queue | ✅ Completed | 2 |
+| **09** | Recursion & Backtracking | ✅ Completed | 1 |
+| **10** | Trees & Binary Search Trees | ✅ Completed | 3 |
 | **11** | Graphs & Traversals | 🔜 Upcoming | — |
 | **12** | Hash Tables | 🔜 Upcoming | — |
 
